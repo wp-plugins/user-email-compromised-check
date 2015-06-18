@@ -6,7 +6,7 @@ Tested up to: 4.2.2
 Stable tag: 0.1
 License: GPL v3
 
-Cross check registered user emails with the https://haveibeenpwned.com/ API for data breaches across a number of popular sites around the internet.
+Cross check registered user emails with the Have I Been Pwned API for data breaches across a number of popular sites around the internet.
 
 == Description ==
 
