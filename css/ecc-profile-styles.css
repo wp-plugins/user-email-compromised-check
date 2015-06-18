@@ -1,0 +1,198 @@
+	/*
+	*	Main Styles for ECC
+	*/
+	.ecc-success-notice .dashicons-shield-alt {
+		float: left;
+		line-height: 1.2;
+		padding-right: 2px;
+	}	
+	.ecc-compromised-notice .dashicons-dismiss {
+		float: left;
+		line-height: 1.7;
+		padding-right: 2px;
+	}	
+	.ecc-success-notice.ecc-profile-notification {
+		background: #fff;
+		border-left: 4px solid #7ad03a;
+		box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+		margin: 5px 15px 2px;
+		padding: 1px 12px;
+		margin-left: 0;
+	}
+		.ecc-success-notice.ecc-profile-notification p {
+			font-size: 13px;
+			margin: .3em 0;
+		}
+		
+	.ecc_pwned_about_link {
+		display: block;
+		width: 100%;
+	}
+	
+	.hidden-returned-data {
+		margin-top: .5em;
+		display: none;
+	}
+	
+	/* Pwn Status Buttons */
+	.check-pwn-status-button {
+		color: #fff;
+		background-color: #8F8F8F;
+		padding: 6px;
+		width: 60%;
+		display: block;
+		transition: background 0.1s linear !important;
+		text-align: center;
+	}
+		.check-pwn-status-button:hover {
+			color: #fff;
+			background-color: #676767;
+		}
+		
+	.account-compromised-column-notice,
+	.account-clean-column-notice {
+		background-color: transparent;
+		padding: 6px;
+		width: 60%;
+		display: block;
+		text-align: left;
+		transition: background 0.1s linear !important;
+		padding-left: 0;
+	}
+		.account-compromised-column-notice:hover {
+			background-color: transparent;
+		}
+	
+	/* Companny/Service Logos */
+	.pwnLogo {
+		width: 85%;
+		margin-top: .5em;
+	}
+		img[alt="Forbes logo"],
+		img[alt="Verified logo"],
+		img[alt="ThisHabboForum logo"],
+		img[alt="MuslimDirectory logo"],
+		img[alt="LoungeBoard logo"],
+		img[alt="SprashivaiRu logo"],
+		img[alt="Yandex logo"],
+		img[alt="Win7Vista logo"],
+		img[alt="TRAI logo"],
+		img[alt="Sony logo"],
+		img[alt="Snapchat logo"],
+		img[alt="NextGenUpdate logo"],
+		img[alt="Flashback logo"] {
+			width: 90%;
+			margin: 0 auto;
+			display: block;
+			padding-top: .25em;
+			padding-bottom: .25em;
+			margin-top: .5em;
+		}
+	
+	a.forbes-logo-link,
+	a.verified-logo-link,
+	a.thishabboforum-logo-link,
+	a.muslimdirectory-logo-link,
+	a.loungeboard-logo-link,
+	a.sprashivairu-logo-link,
+	a.yandex-logo-link,
+	a.win7index-logo-link,
+	a.trai-logo-link,
+	a.sony-logo-link,
+	a.snapchat-logo-link,
+	a.nextgenupdate-logo-link,
+	a.flashback-logo-link {
+		display: block;
+		background: rgba(80, 80, 80, 0.83);
+		width: 85%;
+	}
+	
+	.compromised-report-data {
+		text-align: left;
+		list-style: none;
+		overflow: hidden;
+		position: relative;
+	}
+		.compromised-report-data h4:hover {
+			cursor: pointer;
+		}
+		.compromised-report-data .title {
+			display: block;
+			width: 100%;
+		}	
+	
+	.compromised-report-data .breach-info {
+		display: none;
+		float: left;
+	}
+	
+	.breach-info-logo {
+		float: left;
+		width: 20%;
+	}
+	
+	.breach-info-data {
+		float: left;
+		width: 80%;
+	}
+	
+	.remodal #modal1Title {
+		margin-top: 0;
+	}
+	
+	.remodal {
+		padding-bottom: 1em !important;
+	}
+		
+		.remodal-margin-top {
+			margin-top: 2em;
+		}
+	
+	.ecc-modal-footer {
+		display: block;
+		width: 100%;
+		border-top: 1px solid #ddd;
+		padding-top: 1em;
+		text-align: right;
+	}
+	
+		.ecc-modal-footer .view-full-report {
+			display: block;
+			width: 100%;
+		}	
+
+		.ecc-modal-footer .eh-heart-icon {
+			line-height: 1.5;
+			font-size: 15px;
+			color: #F9ABB8;
+			width: 16px;
+		}
+	
+	/* Column Notices */
+	.pwned_status .account-clean-column-notice {
+		color: rgba(94, 186, 62, 0.83);
+	}
+	
+	.pwned_status .account-compromised-column-notice {
+		color: #E48181;
+	}
+
+	/* Dashicons */
+	.collapsed h4::before {
+		content: '\f139' !important;
+		font-family: "dashicons";
+	}
+	.compromised-report-data h4::before {
+		content: '\f140';
+		font-family: "dashicons";
+	}
+		
+	/* Responsive */
+
+	@media screen and (min-width: 782px) {
+		.ecc-success-notice.ecc-profile-notification, 
+		.ecc-compromised-notice.ecc-profile-notification {
+			width: 23em;
+ 		}
+	}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImVjYy1wcm9maWxlLXN0eWxlcy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkNBQUM7O0dBRUU7Q0FDRjtFQUNDLFlBQVk7RUFDWixpQkFBaUI7RUFDakIsbUJBQW1CO0VBQ25CO0NBQ0Q7RUFDQyxZQUFZO0VBQ1osaUJBQWlCO0VBQ2pCLG1CQUFtQjtFQUNuQjtDQUNEO0VBQ0MsaUJBQWlCO0VBQ2pCLCtCQUErQjtFQUUvQix1Q0FBdUM7RUFDdkMscUJBQXFCO0VBQ3JCLGtCQUFrQjtFQUNsQixlQUFlO0VBQ2Y7RUFDQTtHQUNDLGdCQUFnQjtHQUNoQixlQUFlO0dBQ2Y7O0NBRUY7RUFDQyxlQUFBO0VBQ0EsWUFBQTtFQUNBOztDQUNEO0VBQ0EsaUJBQUE7RUFDQyxjQUNDO0VBQUQ7O0NBRUQsd0JBQUM7Q0FDRDtFQUNDLFlBQVk7RUFDWiwwQkFBMEI7RUFDMUIsYUFBYTtFQUNiLFdBQVc7RUFDWCxlQUFlO0VBQ2YsaUJBQWlCO0VBS1gsOENBQThDO0VBQ3BEO0VBQ0E7R0FFQSxZQUFBO0dBQ0EsMEJBQUE7R0FBQzs7Q0FFRjs7RUFFQSw4QkFBQTtFQUNDLGFBQWE7RUFDYixXQUFXO0VBQ1gsZUFBZTtFQUNmLGlCQUFpQjtFQUtYLDhDQUE4QztFQUNwRCxnQkFBZ0I7RUFDaEI7RUFDQTtHQUNBLDhCQUFFO0dBQ0Y7O0NBRUQsNEJBQUM7Q0FDRDtFQUNBLFdBQUE7RUFDQyxpQkFBaUI7RUFDakI7RUFDQTs7Ozs7Ozs7Ozs7OztHQWFBLFdBQVk7R0FDWixlQUFBO0dBQ0MsZUFBZTtHQUNqQixtQkFBQTtHQUNDLHNCQUFZO0dBQ1osaUJBQVc7R0FDWDs7Q0FFRDs7Ozs7Ozs7Ozs7OztFQWFDLGVBQUE7RUFDQSxtQ0FBaUI7RUFDakIsV0FBQztFQUNEOztDQUVEO0VBQ0MsaUJBQVk7RUFDWixpQkFBQTtFQUNBLGlCQUFpQjtFQUNqQixtQkFBa0I7RUFDbEI7RUFDQTtHQUNBLGdCQUFBO0dBQ0M7RUFDRDtHQUNDLGVBQUE7R0FDQSxZQUFZO0dBQ2I7O0NBRUQ7RUFDQyxjQUFDO0VBQ0QsWUFBQztFQUNEOztDQUVEO0VBQ0EsWUFBQTtFQUNDLFdBQUE7RUFDQTs7Q0FFRDtFQUNDLFlBQUE7RUFDQSxXQUFBO0VBQ0E7O0NBRUQ7RUFDQyxjQUFBO0VBQ0E7O0NBRUQ7RUFDQywrQkFBaUI7RUFDakI7O0VBRUE7R0FDRCxnQkFBZ0I7R0FDZDs7Q0FFRjtFQUNDLGVBQWU7RUFDZixZQUFDO0VBQ0QsMkJBQUU7RUFDRixpQkFBQTtFQUNBLGtCQUFrQjtFQUNsQjs7RUFFQTtHQUNDLGVBQWU7R0FDZixZQUFZO0dBQ1o7O0VBRUQ7R0FDQyxpQkFBaUI7R0FDakIsZ0JBQWdCO0dBQ2hCLGVBQWU7R0FDZixZQUFZO0dBQ1o7O0NBRUYsb0JBQW9CO0NBQ3BCO0VBQ0MsK0JBQStCO0VBQy9COztDQUVEO0VBQ0MsZUFBZTtFQUNmOztDQUVELGVBQWU7Q0FDZjtFQUNDLDRCQUE0QjtFQUM1Qix5QkFBeUI7RUFDekI7Q0FDRDtFQUNDLGlCQUFpQjtFQUNqQix5QkFBeUI7RUFDekI7O0NBRUQsZ0JBQWdCOztDQUVoQjtFQUNDOztHQUVDLFlBQVk7SUFDWDtFQUNGIiwiZmlsZSI6ImVjYy1wcm9maWxlLXN0eWxlcy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcdC8qXHJcblx0Klx0TWFpbiBTdHlsZXMgZm9yIEVDQ1xyXG5cdCovXHJcblx0LmVjYy1zdWNjZXNzLW5vdGljZSAuZGFzaGljb25zLWxvY2sge1xyXG5cdFx0ZmxvYXQ6IGxlZnQ7XHJcblx0XHRsaW5lLWhlaWdodDogMS4yO1xyXG5cdFx0cGFkZGluZy1yaWdodDogMnB4O1xyXG5cdH1cdFxyXG5cdC5lY2MtY29tcHJvbWlzZWQtbm90aWNlIC5kYXNoaWNvbnMtZGlzbWlzcyB7XHJcblx0XHRmbG9hdDogbGVmdDtcclxuXHRcdGxpbmUtaGVpZ2h0OiAxLjc7XHJcblx0XHRwYWRkaW5nLXJpZ2h0OiAycHg7XHJcblx0fVx0XHJcblx0LmVjYy1zdWNjZXNzLW5vdGljZS5lY2MtcHJvZmlsZS1ub3RpZmljYXRpb24ge1xyXG5cdFx0YmFja2dyb3VuZDogI2ZmZjtcclxuXHRcdGJvcmRlci1sZWZ0OiA0cHggc29saWQgIzdhZDAzYTtcclxuXHRcdC13ZWJraXQtYm94LXNoYWRvdzogMCAxcHggMXB4IDAgcmdiYSgwLDAsMCwuMSk7XHJcblx0XHRib3gtc2hhZG93OiAwIDFweCAxcHggMCByZ2JhKDAsMCwwLC4xKTtcclxuXHRcdG1hcmdpbjogNXB4IDE1cHggMnB4O1xyXG5cdFx0cGFkZGluZzogMXB4IDEycHg7XHJcblx0XHRtYXJnaW4tbGVmdDogMDtcclxuXHR9XHJcblx0XHQuZWNjLXN1Y2Nlc3Mtbm90aWNlLmVjYy1wcm9maWxlLW5vdGlmaWNhdGlvbiBwIHtcclxuXHRcdFx0Zm9udC1zaXplOiAxM3B4O1xyXG5cdFx0XHRtYXJnaW46IC4zZW0gMDtcclxuXHRcdH1cclxuXHRcclxuXHQuY29tcHJvbWlzZWQtcmVwb3J0LWRhdGEge1xyXG5cdFx0dGV4dC1hbGlnbjogbGVmdDtcclxuXHRcdGxpc3Qtc3R5bGU6IG5vbmU7XHJcblx0XHRvdmVyZmxvdzogaGlkZGVuO1xyXG5cdFx0cG9zaXRpb246IHJlbGF0aXZlO1xyXG5cdH1cclxuXHRcdC5jb21wcm9taXNlZC1yZXBvcnQtZGF0YSBoNDpob3ZlciB7XHJcblx0XHRcdGN1cnNvcjogcG9pbnRlcjtcclxuXHRcdH1cclxuXHRcdC5jb21wcm9taXNlZC1yZXBvcnQtZGF0YSAudGl0bGUge1xyXG5cdFx0XHRkaXNwbGF5OiBibG9jaztcclxuXHRcdFx0d2lkdGg6IDEwMCU7XHJcblx0XHR9XHRcclxuXHRcclxuXHQuY29tcHJvbWlzZWQtcmVwb3J0LWRhdGEgLmJyZWFjaC1pbmZvIHtcclxuXHRcdGRpc3BsYXk6IG5vbmU7XHJcblx0XHRmbG9hdDogbGVmdDtcclxuXHR9XHJcblxyXG5cdC8qIERhc2hpY29ucyAqL1xyXG5cdC5jb2xsYXBzZWQgaDQ6OmJlZm9yZSB7XHJcblx0XHRjb250ZW50OiAnXFxmMTM5JyAhaW1wb3J0YW50O1xyXG5cdFx0Zm9udC1mYW1pbHk6IFwiZGFzaGljb25zXCI7XHJcblx0fVxyXG5cdC5jb21wcm9taXNlZC1yZXBvcnQtZGF0YSBoNDo6YmVmb3JlIHtcclxuXHRcdGNvbnRlbnQ6ICdcXGYxNDAnO1xyXG5cdFx0Zm9udC1mYW1pbHk6IFwiZGFzaGljb25zXCI7XHJcblx0fVxyXG5cdFx0XHJcblx0LyogUmVzcG9uc2l2ZSAqL1xyXG5cclxuXHRAbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3ODJweCkge1xyXG5cdFx0LmVjYy1zdWNjZXNzLW5vdGljZS5lY2MtcHJvZmlsZS1ub3RpZmljYXRpb24sIFxyXG5cdFx0LmVjYy1jb21wcm9taXNlZC1ub3RpY2UuZWNjLXByb2ZpbGUtbm90aWZpY2F0aW9uIHtcclxuXHRcdFx0d2lkdGg6IDIzZW07XHJcbiBcdFx0fVxyXG5cdH0iXX0= */
