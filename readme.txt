@@ -2,7 +2,7 @@
 Tags: hack, data, breach, user, email, pwn, pwned, have, i, been, email, scanner, scan, scam, hacker, hacked, breached, intrusion, security, safe
 Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%20make%20a%20donation%20for%20all%20your%20hard%20work
 Requires at least: 4.0
-Tested up to: 4.2.2
+Tested up to: 4.3
 Stable tag: 0.1
 License: GPL v3
 
